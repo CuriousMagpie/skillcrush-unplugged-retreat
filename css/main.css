@@ -87,6 +87,208 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Note that I added a bunch of the design elements in mainly because that's the way I think; I recognize that a lot of these are probably going to be combined in the final product, but this is part of my process. :) xo Natalie */
+
+/* -------------------- Base Header - Footer Styles -------------------- */
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .header-divider {
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .content-wrapper {
+
+}
+
+footer .footer-content {
+
+}
+
+footer .contact {
+
+}
+
+footer .social {
+
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .copyright {
+
+}
+
+/* -------------------- Mobile Styles - Homepage -------------------- */
+
+/* ----- Hero Area ----- */
+
+.hero-area {
+
+}
+
+.hero-area h1 {
+
+}
+
+/* ----- Aside ----- */
+
+aside {
+
+}
+
+aside h3 {
+
+}
+
+aside p {
+
+}
+
+/* ----- Features ----- */
+
+.features {
+
+}
+
+.features h2 {
+
+}
+
+.features .features-items {
+
+}
+
+.fontawesomeicon {
+
+}
+
+.features-item-description {
+
+}
+
+/* ----- Reviews ----- */
+
+.reviews {
+
+}
+
+.reviews h2 {
+
+}
+
+.reviews h3 {
+
+}
+
+/* -------------------- Mobile Styles - About Page -------------------- */
+
+.mission {
+
+}
+
+.mission h1 {
+
+}
+
+.mission p {
+
+}
+
+.mission .mission-content {
+
+}
+
+.map {
+
+}
+
+.map figure {
+
+}
+
+.contact-section {
+
+}
+
+.contact-section h2 {
+
+}
+
+.contact-section h4 {
+
+}
+
+.contact-section p {
+
+}
+
+.contact-content {
+
+}
+
+/* -------------------- Mobile Styles - FAQ Page -------------------- */
+
+.faq {
+
+}
+
+.faq .content-wrapper {
+
+}
+
+.faq h4 {
+
+}
+
+.faq p {
+
+}
+
+.faq-content {
+
+}
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +462,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
