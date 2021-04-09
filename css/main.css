@@ -334,14 +334,12 @@ input[type=button] {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
-.fontawesomeicon {
-
-}
-
-.features-item-description {
-
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
 }
 
 /* ----- Reviews ----- */
